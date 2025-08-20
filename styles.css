@@ -1,0 +1,32 @@
+/* Minimal dark theme */
+:root{
+  --bg:#0c0f14; --text:#f2f5f9; --muted:#9fb0c3; --accent:#ffffff; --border:#1d2634; --panel:#111827;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+
+a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+.wrap{max-width:900px;margin:0 auto;padding:0 20px}
+
+.nav{position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;padding:16px 20px;background:rgba(12,15,20,.7);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+.nav .brand{font-weight:800;font-size:20px;color:var(--text)}
+.nav .links a{margin-left:18px;color:var(--muted)}
+
+.hero{padding:64px 0 24px;border-bottom:1px solid var(--border)}
+.hero-inner{text-align:center;padding:48px 20px 32px}
+.hero .avatar{width:120px;height:120px;border-radius:50%;border:2px solid var(--accent);background:#0b0f16;margin-bottom:18px}
+h1{font-size:42px;margin:8px 0 6px}
+.subtitle{color:var(--muted);margin:0 0 8px}
+.accent{color:var(--accent)}
+
+.section{padding:56px 0}
+.section.alt{background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent)}
+.section h2{letter-spacing:.08em;font-size:22px;margin:0 0 12px; color:var(--text); opacity:.95}
+.section p{max-width:720px}
+
+.contact-list{list-style:none;padding-left:0}
+.contact-list li{margin:6px 0}
+
+.footer{border-top:1px solid var(--border);color:var(--muted);padding:18px 0;text-align:center}
+
+@media (max-width:640px){h1{font-size:34px}.nav .links a{margin-left:12px}}
