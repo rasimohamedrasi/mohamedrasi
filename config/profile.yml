@@ -1,0 +1,72 @@
+candidate:
+  full_name: "Mohamed Rasi Valiyaparambil"
+  email: "mohamedrasi.ie@gmail.com"
+  phone: ""
+  location: "Ireland"
+  linkedin: "linkedin.com/in/mohamed-rasi"
+  portfolio_url: "https://mohamedrasi.com"
+  github: ""
+  driving_licence: "Full Clean Class B"
+
+target_roles:
+  primary:
+    - "IT Support Engineer"
+    - "Helpdesk Technician"
+    - "Hardware Technician"
+    - "Junior Cybersecurity Analyst"
+  archetypes:
+    - name: "IT Support / Helpdesk"
+      level: "Junior/Mid"
+      fit: "primary"
+    - name: "Hardware Technician"
+      level: "Junior/Mid"
+      fit: "primary"
+    - name: "Junior Cybersecurity Analyst"
+      level: "Junior"
+      fit: "primary"
+    - name: "SOC Analyst"
+      level: "Junior"
+      fit: "secondary"
+    - name: "Cloud Support Engineer"
+      level: "Junior"
+      fit: "adjacent"
+
+narrative:
+  headline: "MSc Cybersecurity graduate with hands-on IT support and hardware background"
+  exit_story: "Completing MSc Cybersecurity at Dublin Business School and immediately available for junior roles across IT support, hardware, and cybersecurity in Ireland."
+  superpowers:
+    - "Build and repair PCs and laptops from scratch"
+    - "Endpoint security with Microsoft Defender and Intune"
+    - "Penetration testing and vulnerability assessment"
+    - "Can travel anywhere in Ireland — Full Clean Class B licence"
+  proof_points:
+    - name: "AsyncRAT Traffic Analysis"
+      hero_metric: "Documented IOCs and C2 behaviour in structured forensic report"
+    - name: "Automated Cloud Deployment"
+      hero_metric: "End-to-end IaC pipeline using Azure, Terraform, Ansible, Docker"
+    - name: "CTF & Practical Labs"
+      hero_metric: "TryHackMe and Hack The Box learning paths completed with published writeups"
+
+deal_breakers:
+  - "No visa sponsorship required — eligible to work in Ireland"
+  - "Not interested in fully remote roles outside Ireland"
+
+compensation:
+  target_range: "€30,000–€45,000"
+  currency: "EUR"
+  minimum: "€28,000"
+  location_flexibility: "On-site or hybrid across Ireland preferred"
+
+location:
+  country: "Ireland"
+  city: "Ireland (flexible)"
+  timezone: "GMT/IST"
+  visa_status: "Eligible to work in Ireland — no sponsorship needed"
+
+cover_letter:
+  notice_period_days: 0
+  primary_domain: "Cybersecurity / IT Support"
+
+availability:
+  status: "Available immediately"
+  start_date: "ASAP"

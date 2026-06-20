@@ -1,0 +1,156 @@
+# Career-Ops Portal Configuration for Mohamed Rasi
+# Targeting IT Support, Hardware Technician, and Junior Cybersecurity roles in Ireland
+
+title_filter:
+  positive:
+    - IT Support
+    - Helpdesk
+    - Service Desk
+    - Help Desk
+    - Desktop Support
+    - Hardware Technician
+    - Field Technician
+    - Cybersecurity
+    - Cyber Security
+    - SOC Analyst
+    - Security Analyst
+    - Network Support
+    - Systems Administrator
+    - Cloud Support
+    - Endpoint Security
+    - Junior
+    - Graduate
+  negative:
+    - Senior
+    - Principal
+    - Lead
+    - Manager
+    - Director
+    - VP
+    - Head of
+    - Architect
+  location_filter:
+    allow:
+      - Ireland
+      - Dublin
+      - Cork
+      - Galway
+      - Limerick
+      - Waterford
+      - Remote
+      - Hybrid
+    always_allow:
+      - Ireland
+    block:
+      - United States
+      - Canada
+      - Australia
+      - Singapore
+
+search_queries:
+  - query: "site:jobs.ie IT Support Junior Ireland"
+  - query: "site:irishjobs.ie cybersecurity analyst graduate"
+  - query: "site:linkedin.com/jobs IT support Dublin 2024"
+  - query: "site:indeed.ie helpdesk technician ireland"
+  - query: "site:greenhouse.io junior cybersecurity ireland"
+  - query: "site:lever.co IT support engineer ireland"
+
+companies:
+  # Irish employers / MSPs known to hire IT support staff
+  - name: "Auxilion"
+    careers_url: "https://www.auxilion.com/careers"
+    scan_method: "playwright"
+    tags: [it-support, ireland]
+
+  - name: "Version 1"
+    careers_url: "https://www.version1.com/careers/"
+    scan_method: "playwright"
+    tags: [it-support, cybersecurity, ireland]
+
+  - name: "Ergo"
+    careers_url: "https://ergogroup.ie/careers/"
+    scan_method: "playwright"
+    tags: [it-support, cloud, ireland]
+
+  - name: "Datapac"
+    careers_url: "https://www.datapac.com/careers"
+    scan_method: "playwright"
+    tags: [it-support, hardware, ireland]
+
+  - name: "Intellicore"
+    careers_url: "https://www.intellicore.ie/careers"
+    scan_method: "playwright"
+    tags: [it-support, ireland]
+
+  - name: "Trilogy Technologies"
+    careers_url: "https://www.trilogy.ie/careers"
+    scan_method: "playwright"
+    tags: [it-support, ireland]
+
+  - name: "Glanbia"
+    careers_url: "https://jobs.glanbia.com/"
+    scan_method: "playwright"
+    tags: [it-support, ireland]
+
+  # Global companies with Irish offices
+  - name: "Microsoft Ireland"
+    careers_url: "https://jobs.careers.microsoft.com/global/en/search?lc=Ireland"
+    scan_method: "websearch"
+    tags: [cybersecurity, cloud, ireland]
+
+  - name: "Google Ireland"
+    careers_url: "https://careers.google.com/jobs/results/?location=Ireland"
+    scan_method: "websearch"
+    tags: [it-support, cloud, ireland]
+
+  - name: "Amazon AWS Ireland"
+    careers_url: "https://www.amazon.jobs/en/locations/ireland"
+    scan_method: "websearch"
+    tags: [cloud, it-support, ireland]
+
+  - name: "Accenture Ireland"
+    careers_url: "https://www.accenture.com/ie-en/careers/jobsearch?jk=&sb=0&vw=0&is=True&ct=Ireland&co=ie&pg=1"
+    scan_method: "websearch"
+    tags: [cybersecurity, it-support, ireland]
+
+  - name: "Deloitte Ireland"
+    careers_url: "https://jobs2.deloitte.com/ie/en"
+    scan_method: "playwright"
+    tags: [cybersecurity, it-support, ireland]
+
+  - name: "PwC Ireland"
+    careers_url: "https://www.pwc.ie/careers.html"
+    scan_method: "playwright"
+    tags: [cybersecurity, ireland]
+
+  - name: "Grant Thornton Ireland"
+    careers_url: "https://www.grantthornton.ie/careers/"
+    scan_method: "playwright"
+    tags: [it-support, ireland]
+
+  # Cybersecurity-specific
+  - name: "BT Ireland"
+    careers_url: "https://careers.bt.com/search?query=ireland"
+    scan_method: "websearch"
+    tags: [cybersecurity, networking, ireland]
+
+  - name: "Atos Ireland"
+    careers_url: "https://atos.net/en/careers"
+    scan_method: "websearch"
+    tags: [it-support, cybersecurity, ireland]
+
+  - name: "DXC Technology Ireland"
+    careers_url: "https://jobs.dxc.technology/search?location=Ireland"
+    scan_method: "websearch"
+    tags: [it-support, cybersecurity, ireland]
+
+job_boards:
+  - name: "IrishJobs.ie"
+    url: "https://www.irishjobs.ie/jobs/it-support"
+    scan_method: "websearch"
+  - name: "Jobs.ie"
+    url: "https://www.jobs.ie/jobs/it-and-telecoms/"
+    scan_method: "websearch"
+  - name: "Indeed Ireland"
+    url: "https://ie.indeed.com/jobs?q=IT+Support+cybersecurity&l=Ireland"
+    scan_method: "websearch"
